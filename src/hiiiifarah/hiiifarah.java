@@ -16,6 +16,7 @@ public class hiiifarah {
 		System.out.println("5.Selection");
 		System.out.println("6.Sub-Programs");
 		System.out.println("7.Variables");
+		
 System.out.println("what is your choice ?");
      userChoice=in.nextInt();
       if(userChoice==1) {
@@ -37,6 +38,55 @@ System.out.println("what is your choice ?");
 	}
 
 }
+public class Nested {
+//	public static void 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in= new Scanner(System.in);
+		System.out.println("What's the first value?");
+		int arrays= in.nextInt();
+		System.out.println("What's the second value?");
+		int moustache= in.nextInt();
+		for(int i=1; i<=moustache; i++) {
+			for (int j=1; j<=arrays; j++) {
+				System.out.print(j*i+"\t");
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
+public class Operator {
+//	public static void 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in= new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int x = in.nextInt();
+		int tem1= x;
+		x=x-1;
+		System.out.println(tem1+"-1="+x);
+		int arrays=x;
+		x=x*3;
+		System.out.println(arrays+"x3="+x);
+		int farah1=x;
+		x=x+12;
+		System.out.println(farah1+"+12="+x);
+		int girl=x;
+		x=x/3;
+		System.out.println(girl+"/3="+x);
+		int naa=x;
+		x=x+5;
+		System.out.println(naa+"+5="+x);
+		int y=x;
+		y=x-tem1;
+		System.out.println(arrays+"-"+tem1+"="+x);
+		System.out.println("It's 8!!");
+	}
+
+}
+  // NUMBER 4
+
 
 
 
